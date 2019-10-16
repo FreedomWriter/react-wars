@@ -29,7 +29,7 @@ export default function MovCardList(props) {
         {film.map((f, index) => {
           // if (f.title) {
           return (
-            <Col xs="12">
+            <Col xs="12" key={Date.now()}>
               <Wrapper>
                 <MovieCardComp
                   title={f.title}
