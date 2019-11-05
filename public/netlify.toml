@@ -1,0 +1,4 @@
+[build]
+base="droom-app"
+publish="build/"
+command="npm run build"
