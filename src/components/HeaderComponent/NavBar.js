@@ -16,21 +16,18 @@ import FindChar from "../FindComponent/FindChar";
 import FindMov from "../FindComponent/FindMov";
 
 export default function NavBar() {
-  {
-    /*This is the menu list toggle in the nav bar*/
-  }
+  /*This is the menu list toggle in the nav bar*/
+
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
     setIsOpen(!isOpen);
   };
-  {
-    /*End of Nav menu list toggle in the nav bar*/
-  }
 
-  {
-    /*Logic which handles the conditional rendering returned in the JSX */
-  }
+  /*End of Nav menu list toggle in the nav bar*/
+
+  /*Logic which handles the conditional rendering returned in the JSX */
+
   const [showCharContent, setShowCharContent] = useState(false);
   const [showMovContent, setShowMovContent] = useState(false);
 
@@ -42,9 +39,9 @@ export default function NavBar() {
     const doesMovShow = showMovContent;
     setShowMovContent(!doesMovShow);
   }
-  {
-    /*End of cpnditional rendering logic */
-  }
+
+  /*End of cpnditional rendering logic */
+
   return (
     <div>
       <div>
